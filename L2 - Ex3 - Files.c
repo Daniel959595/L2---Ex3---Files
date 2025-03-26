@@ -259,6 +259,11 @@ int main()
     // the old Employee struct but i was in a rush...
     load_newEmployee_from_file();
 
+    // ******** Q4 *********
+    // 1. There isnt a test to see if fopen succeeded
+    // 2. There is no limitation on name in fscanf, it should be fscanf(... %19s ...)
+    // 3. ?
+
 
 
     return 0;
